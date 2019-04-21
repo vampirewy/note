@@ -24,8 +24,8 @@ const logger = {
 const STATIC_OSS = "oyoyo-static";
 const BACKUP_OSS = "oyoyo-backup";
 const client = initOSS({
-  accessKeyId: "LTAILtcGo9YqIgXs",
-  accessKeySecret: "pdJffWpm9n4PzwMfUc7gIcfXXXKRCF"
+  // accessKeyId: "LTAILtcGo9YqIgXs",
+  // accessKeySecret: "pdJffWpm9n4PzwMfUc7gIcfXXXKRCF"
 });
 const [projectName, bukectName, dist] = process.argv.slice(2);
 
